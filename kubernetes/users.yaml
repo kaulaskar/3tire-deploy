@@ -27,7 +27,8 @@ spec:
     spec:
       containers:
         - name: users-api
-          image: sailesh94/users-api:latest
+          # image: sailesh94/users-api:latest  
+          image:  gomurali/k8s-users:latest
           env:
             - name: MONGODB_CONNECTION_URI
               value: "mongodb+srv://sailesh:<password>@cluster0.3wbp5dt.mongodb.net/"
