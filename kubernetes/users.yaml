@@ -31,6 +31,6 @@ spec:
           image:  gomurali/k8s-users:latest
           env:
             - name: MONGODB_CONNECTION_URI
-              value: "mongodb+srv://sailesh:<password>@cluster0.3wbp5dt.mongodb.net/"
+              value: "mongodb://sailesh:<>@docdb-2024-01-16-04-31-09.cluster-c5qsmk6aicub.us-east-1.docdb.amazonaws.com:27017/?tls=true&tlsCAFile=global-bundle.pem&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
             - name: AUTH_API_ADDRESSS
               value: "auth-service.default:3000"
